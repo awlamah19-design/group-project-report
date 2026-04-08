@@ -1,3 +1,9 @@
+|No.| 	|Name| 	|NRIC/Passport|	|StudentID| 	|Programme|
+ 
+|1| 	|Hussein Abdalla Abdalla Awlama|	|P11694895|	|202505010495| 	|BIT|          
+                          
+|2|	|Yassin Mohamed yassin Waad|	|P12843122|	|202505010233|	|BCSSE|
+|3|	|Dafalla mudawi elamin jehad|	|P12427576|	|202505010508|	|BIT|
 # Student Academic Performance and Risk Prediction System
 
 ## Executive Summary
@@ -113,8 +119,41 @@ Access the application here: https://github.com/streamlit/streamlit/tree/e490c52
 2. Click the "Predict Student Outcome" button
 3. View the prediction result and probability percentages
 
-### Local Installation
+# Conclusion:
+In conclusion, this project has been successful in building an end-to-end machine learning pipeline to forecast the performance of students based on a real-world dataset on education. It is notable that the Random Forest algorithm performed best, with an accuracy rate of 77%, while being able to detect which students were likely to dropout. The "Enrolled" class poses difficulties because of the overlapping attributes between "Dropouts" and "Graduates."
+The Streamlit app offers a practical solution to educational organizations' retention strategies.
 
+
+ # Acknowledgment:
+
+We would like to extend our heartfelt appreciation to:
+
+Sir Nazmirul Izzad Bin Nassir for all the support he provided us in this work.
+City University Malaysia, Faculty of Information Technology for offering the resources needed for this work.
+The providers of the "Predict Students' Dropout and Academic Success" Dataset available on Kaggle.
+Open-source communities of Python, Scikit-learn, Pandas, Matplotlib, and Streamlit.
+
+project/
+│
+├── README.md
+├── requirements.txt
+│
+├── notebooks/
+│   ├── 1_Dataset_Preprocessing.ipynb
+│   ├── 2_Model_Development.ipynb
+│   └── 3_Model_Testing.ipynb
+│
+├── models/
+│   ├── best_model.pkl
+│   ├── scaler.pkl
+│   ├── label_encoder.pkl
+│   └── model_comparison_results.csv
+│
+├── src/
+│   └── app.py
+│
+└── slides/
+    └── presentation.pdf
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
