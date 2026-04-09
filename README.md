@@ -1,12 +1,5 @@
 
 
-No. 	Name 	NRIC/Passport	Student ID 	Programme
- 
-1 	Hussein Abdalla Abdalla Awlama	P11694895	202505010495 	BIT          
-                          
-2	Yassin Mohamed yassin Waad	P12843122	202505010233	BCSSE
-3	Dafalla mudawi elamin jehad	P12427576	202505010508	BIT
-
 
 
 
